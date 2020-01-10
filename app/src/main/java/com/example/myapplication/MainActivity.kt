@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         val settings = webView.settings
         settings.javaScriptEnabled = true
         settings.domStorageEnabled = true
+        // hi
 
         webView.loadUrl("http://10.10.18.117:3000");
 }
